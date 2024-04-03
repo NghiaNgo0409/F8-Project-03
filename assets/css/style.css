@@ -59,7 +59,7 @@ a {
     /* min-height: 100vh; */
     padding: 8px 0;
     position: sticky;
-    z-index: 1;
+    z-index: 3;
     top: -22px;
 }
 
