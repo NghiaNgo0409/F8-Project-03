@@ -155,6 +155,7 @@ a {
 
 .hero .container {
     display: flex;
+    align-items: center;
 }
 
 .hero__content {
