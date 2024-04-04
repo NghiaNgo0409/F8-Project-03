@@ -629,3 +629,36 @@ a {
     font-weight: 500;
     line-height: normal;
 }
+
+/* Appointment */
+.appointment {
+    margin-top: 170px;
+}
+
+.appointment__content {
+    padding: 100px 0;
+    background: #f6fbff;
+    text-align: center;
+}
+
+.appointment__heading::after {
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.appointment__desc {
+    width: 617px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.appointment .btn {
+    margin-top: 38px;
+}
