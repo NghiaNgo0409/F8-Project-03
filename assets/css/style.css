@@ -412,3 +412,91 @@ a {
 .feature .btn {
     margin-top: 38px;
 }
+
+/* Member */
+.member {
+    padding: 170px 0;
+}
+
+.member__header {
+    text-align: center;
+}
+
+.member .btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item {
+    text-align: center;
+}
+
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1);
+}
+
+.member-item__img-bg {
+    border-radius: 6px;
+    background: #eaf6ff;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.member-item__thumb {
+    display: block;
+    max-width: 100%;
+    height: 290px;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.member-item__name {
+    margin-top: 12px;
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.75; /* 175% */
+}
+
+.member-item__title {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.86; /* 185.714% */
+}
+
+.member__cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    column-gap: 16px;
+}
+
+.member__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    background-color: #fff;
+    color: #575f66;
+}
+
+.member__button:hover {
+    cursor: pointer;
+    background-color: #2e80ce;
+    color: #fff;
+    border: none;
+}
+
+.member__button-icon {
+    rotate: 180deg;
+}
