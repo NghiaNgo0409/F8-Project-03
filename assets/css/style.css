@@ -370,3 +370,45 @@ a {
     font-weight: 400;
     line-height: 1.75; /* 175% */
 }
+
+.feature {
+    padding: 170px 0;
+}
+
+.feature__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+
+.feature__images {
+    position: relative;
+    width: 49%;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__img:first-of-type {
+    width: 512px;
+}
+
+.feature__img:last-of-type {
+    position: absolute;
+    width: 332px;
+    bottom: 0;
+    right: 0;
+}
+
+.feature__desc {
+    margin-top: 18px;
+}
+
+.feature .btn {
+    margin-top: 38px;
+}
